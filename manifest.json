@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Login with Firebase",
+  "version": "0.0.1",
+  "description": "A test extension for login with firebase",
+  "content_security_policy": "script-src 'self' https://apis.google.com https://www.gstatic.com; object-src 'self'",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "icons": {
+    "128": "icon128.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "16": "icon16.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "Login with firebase"
+  }
+}
