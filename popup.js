@@ -5,14 +5,14 @@ function initializeFirebase() {
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   var firebaseConfig = {
-    apiKey: "AIzaSyB-vcFWAw5KpdM1qCqQDCkb1GekcPrAUoc",
-    authDomain: "myaligatorproject-2ec58.firebaseapp.com",
-    databaseURL: "https://myaligatorproject-2ec58.firebaseio.com",
-    projectId: "myaligatorproject-2ec58",
-    storageBucket: "myaligatorproject-2ec58.appspot.com",
-    messagingSenderId: "604193705847",
-    appId: "1:604193705847:web:8ffe063555339998065b72",
-    measurementId: "G-QDN1TBKEX0"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
